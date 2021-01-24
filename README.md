@@ -1,6 +1,8 @@
-# AWESOME PROFILE CARDS 🎯
+# AWESOME PROFILE CARDS 📩
 
-The challenge consists in creating a simple 
+This application is used to generate virtual business cards that you can publish on Twitter. In less than two minutes you will have your business card ready to share, with your personal and professional data, so that consulting your CV on LinkedIn and your GitHub profile is quick and easy for headhunters 😉. You can create it through any device, as it is fully responsive.
+
+In addition, you will be able to preview how your card will look as you fill it in and, so as not to waste time, all your information will be stored in local storage so that generating new cards is faster and more efficient.
 
 ## Installing :wrench:
 
@@ -53,13 +55,17 @@ The challenge consists in creating a simple
 
 ```
 
-## Component structure diagram 📌
-
-![](architecture.jpg)
-
 ## Development ⚙
 
-A RESTful API has been created to host the information about the different products using Express. This information, or better called data, is hosted in "proxy: localhost:5000". The data has been fetched using Axios and therefore linked to the React App Project. The data has been saved into the main component 'App.js' state using 'hooks' and then transferred to its children components using 'props'.
+This application has been developed using:
+
+- Advanced HTML forms.
+- Advanced CSS layout using flex box and grid display.
+- Vanilla JavaScript to manage the browser events.
+- Git for project version control.
+- Sass for CSS preprocessor.
+- GitHub Pages to publish the final result.
+
 
 ## Built With 🛠
 
