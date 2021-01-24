@@ -4,8 +4,7 @@ The challenge consists in creating a simple
 
 ## Installing :wrench:
 
-1. Install Node.js.
-2. Download or clone the repository.
+1. Download or clone the repository.
 3. Install local dependencies using \$ npm install.
 4. Launch project in the other terminal using \$ npm start. From this moment, localhost:3000 will be running the frontend part of the project.
 
