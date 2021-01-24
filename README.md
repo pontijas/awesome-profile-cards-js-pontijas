@@ -7,51 +7,45 @@ In addition, you will be able to preview how your card will look as you fill it 
 ## Installing :wrench:
 
 1. Download or clone the repository.
-3. Install local dependencies using \$ npm install.
-4. Launch project in the other terminal using \$ npm start. From this moment, localhost:3000 will be running the frontend part of the project.
+2. Install local dependencies using \$ npm install.
+3. Launch project in the other terminal using \$ npm start. From this moment, localhost:3000 will be running the frontend part of the project.
 
 ## Folder Structure :open_file_folder:
-```
-`- _my-backend
-   |  |		|- node_modules
-`- package.json
-`- package-lock.json
-`- server.js
 
-`- _public
-   |   `favicon.ico
-   |   `index.html
-   |   `manifest.json
-   |   `logo192.png
-   |   `logo512.png
-   |   `robots.txt
+```
 
 `- _src
-   |- components
-   |  |    `App.js
-   |  |    `PhoneItem.js
-   |  |    `PhoneItemDetail.js
-   |  |    `PhoneList.js
-   |- images
-   |- services
-   |  |    `getDataFromApi.js
-   |- stylesheets
-   |  |		|- core
-   |  |    	|	`- _variables.scss
-   |  |		|- components
-   |  |    	|	`- _App.scss
-   |  |    	|	`- _PhoneItem.scss
-   |  |    	|	`- _PhoneItemDetail.scss
-   |  |    	|	`- _PhoneList.scss
-   |-index.css
-   |-index.js
-   |
+   |- assets
+   |  |		|- icons
+   |  |		|- images
+   |  |		|- js
+   |  |    	|	`- main.js
+   |  |		|- scss
+   |  |    	|	`- main.scss
+   |- templates
+   |  |		|- partials
+   |  |    	|	`- _footer.html
+   |  |    	|	`- _head.html
+   |  |    	|	`- _header.html
+   |  |    	|	`- _index-main.html
+   |  |    	|	`- _label-color.html
+   |  |    	|	`- _section-design.html
+   |  |-index.html
+   |  |-profile-card.html
+`- docs
+`- node-modules
+`- public
+`- .csscomb.json
+`- .editorconfig
+`- .eslintrc.json
 `- .gitignore
-`- architecture.jpg
-`- debug.log
-`- package.json
+`- config.json
+`- gulp-flow.png
+`- gulpfile.js
+`- LICENSE
 `- package-lock.json
-`- README.md 
+`- package.json
+`- README.md
 
 ```
 
@@ -66,18 +60,17 @@ This application has been developed using:
 - Sass for CSS preprocessor.
 - GitHub Pages to publish the final result.
 
-
 ## Built With 🛠
 
 - HTML5
 - CSS3
   *Sass
   *CSS Grid
-  *Flexbox
+  \*Flexbox
 - JavaScript
 - Git and Github
 - Responsive Design
-   *Mobile First 
+  \*Mobile First
 
 ## Author :octocat:
 
