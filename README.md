@@ -19,12 +19,12 @@ In addition, you will be able to preview how your card will look as you fill it 
    |  |		|- icons
    |  |		|- images
    |  |		|- js
+   |  |    	    |	`- collapsible.js
    |  |    	    |	`- main.js
    |  |		|- scss
    |  |    	    |	- components
    |  |    	          |	`- _buttons.scss
    |  |    	          |	`- _form.scss
-   |  |    	          |	`- _header-design.scss
    |  |    	          |	`- _section-design.scss
    |  |    	          |	`- _showroom.scss
    |  |    	    |	- core
