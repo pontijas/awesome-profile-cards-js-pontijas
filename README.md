@@ -19,11 +19,24 @@ In addition, you will be able to preview how your card will look as you fill it 
    |  |		|- icons
    |  |		|- images
    |  |		|- js
-   |  |    	|	`- main.js
+   |  |    	    |	`- main.js
    |  |		|- scss
    |  |    	    |	- components
+   |  |    	          |	`- _buttons.scss
+   |  |    	          |	`- _form.scss
+   |  |    	          |	`- _header-design.scss
+   |  |    	          |	`- _section-design.scss
+   |  |    	          |	`- _showroom.scss
    |  |    	    |	- core
+   |  |    	          |	`- _functions.scss
+   |  |    	          |	`- _mixins.scss
+   |  |    	          |	`- _reset.scss
+   |  |    	          |	`- _variables.scss
    |  |    	    |	- layout
+   |  |    	          |	`- _footer.scss
+   |  |    	          |	`- _header.scss
+   |  |    	          |	`- _index-main.scss
+   |  |    	          |	`- _profile-main.scss
    |  |    	|	`- main.scss
    |- templates
    |  |		|- partials
