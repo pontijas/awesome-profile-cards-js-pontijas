@@ -21,6 +21,9 @@ In addition, you will be able to preview how your card will look as you fill it 
    |  |		|- js
    |  |    	|	`- main.js
    |  |		|- scss
+   |  |    	    |	- components
+   |  |    	    |	- core
+   |  |    	    |	- layout
    |  |    	|	`- main.scss
    |- templates
    |  |		|- partials
