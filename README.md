@@ -45,13 +45,13 @@ In addition, you will be able to preview how your card will look as you fill it 
    |  |    	|	`- _footer.html
    |  |    	|	`- _head.html
    |  |    	|	`- _header.html
-   |  |    	|	`- _landing-main.html
+   |  |    	|	`- _index-main.html
    |  |    	|	`- _showroom-design.html
    |  |    	|	`- _showroom-fill.html
    |  |    	|	`- _showroom-share.html
    |  |    	|	`- _showroom.html
    |  |`-index.html
-   |  |`-landing.html
+   |  |`-profilecards.html
 `- docs
 `- node-modules
 `- public
