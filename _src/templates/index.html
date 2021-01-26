@@ -4,8 +4,72 @@
     <partial src="_head.html"></partial>
     <link href="./assets/css/main.css" rel="stylesheet" />
   </head>
-  <body class="page__container">
-    <partial src="_index-main.html"></partial>
+  <body>
+    <partial src="_header.html"></partial>
+    <main class="section-profile">
+      <div class="showroom">
+        <button class="reset-button">
+          <i class="far fa-trash-alt"></i>
+          Reset
+        </button>
+        <div class="layout">
+          <div class="showroom-card__texts">
+            <h1 class="layout__title">Tu nombre</h1>
+            <p class="layout__text">Front-end developer</p>
+          </div>
+
+          <img
+            class="photo"
+            src="./assets/images/sample7.jpg"
+            alt=""
+            title="tu foto"
+          />
+
+          <nav>
+            <ul class="media-icons">
+              <li class="media-icon">
+                <a
+                  class="js-phone-icon"
+                  href=""
+                  alt="Phone number"
+                  title="Call"
+                >
+                  <div class="fas fa-mobile-alt" style="color: #114e4e"></div>
+                </a>
+              </li>
+              <li class="media-icon">
+                <a class="js-mail-icon" href="" alt="Mail" title="Mail">
+                  <i class="far fa-envelope" style="color: #114e4e"></i>
+                </a>
+              </li>
+              <li class="media-icon">
+                <a
+                  href=""
+                  alt="Linkedin"
+                  title="Go to Linkedin"
+                  class="js-linkedin-icon"
+                >
+                  <div class="fab fa-linkedin-in" style="color: #114e4e"></div>
+                </a>
+              </li>
+              <li class="media-icon">
+                <a
+                  class="js-github-icon"
+                  class=""
+                  href=""
+                  alt="Github"
+                  title="Go to Github"
+                >
+                  <div class="fab fa-github-alt" style="color: #114e4e"></div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <partial src="_showroom.html"></partial>
+    </main>
     <partial src="_footer.html"></partial>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
   </body>
 </html>
