@@ -20,13 +20,12 @@ In addition, you will be able to preview how your card will look as you fill it 
    |  |		|- images
    |  |		|- js
    |  |    	    |	`- collapsible.js
+   |  |    	    |	`- colorpalette.js
    |  |    	    |	`- main.js
    |  |		|- scss
    |  |    	    |	- components
-   |  |    	          |	`- _buttons.scss
-   |  |    	          |	`- _form.scss
-   |  |    	          |	`- _section-design.scss
-   |  |    	          |	`- _showroom.scss
+   |  |    	          |	`- _design.scss
+   |  |    	          |	`- _preview.scss
    |  |    	    |	- core
    |  |    	          |	`- _functions.scss
    |  |    	          |	`- _mixins.scss
@@ -35,19 +34,22 @@ In addition, you will be able to preview how your card will look as you fill it 
    |  |    	    |	- layout
    |  |    	          |	`- _footer.scss
    |  |    	          |	`- _header.scss
-   |  |    	          |	`- _index-main.scss
-   |  |    	          |	`- _profile-main.scss
+   |  |    	    |	- pages
+   |  |    	          |	`- _landing.scss
+   |  |    	          |	`- _showroom.scss
    |  |    	|	`- main.scss
    |- templates
    |  |		|- partials
    |  |    	|	`- _footer.html
    |  |    	|	`- _head.html
    |  |    	|	`- _header.html
-   |  |    	|	`- _index-main.html
-   |  |    	|	`- _label-color.html
-   |  |    	|	`- _section-design.html
-   |  |-index.html
-   |  |-profile-card.html
+   |  |    	|	`- _landing-main.html
+   |  |    	|	`- _showroom-design.html
+   |  |    	|	`- _showroom-fill.html
+   |  |    	|	`- _showroom-share.html
+   |  |    	|	`- _showroom.html
+   |  |`-index.html
+   |  |`-landing.html
 `- docs
 `- node-modules
 `- public
