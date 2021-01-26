@@ -46,17 +46,54 @@
     margin-bottom: 1%;
   }
   &__button {
-    margin-top: 3%;
-    text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 1pt;
+    text-transform: uppercase;
     font-family: $textFont;
     font-weight: medium;
-    padding: 10px 20px;
+    margin-top: 3%;
+    display: inline-block;
+    padding: 0.75rem 1.8rem;
     border-radius: 21px;
-    background-color: $brightBlue;
     color: $white;
-    text-decoration: none;
-    border: none;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: $brightBlue;
+      z-index: -2;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: darken($brightBlue, 15%);
+      transition: all 0.3s;
+      z-index: -1;
+    }
+    &:hover {
+      color: $white;
+      &:before {
+        width: 100%;
+      }
+    }
+    &--text {
+      margin: 0;
+      text-align: center;
+      font-family: $textFont;
+      font-size: 16px;
+      font-weight: 600;
+    }
   }
 }
 
