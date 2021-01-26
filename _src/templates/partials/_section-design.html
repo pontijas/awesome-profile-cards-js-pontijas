@@ -19,21 +19,59 @@
         id="select-color"
         class="section-page__design__colors__form"
       >
-        <partial
-          src="_label-color.html"
-          aClass="section-page__design__colors__form__palette01"
-          classList="section-page__design__colors__form__palette01--list"
-        ></partial>
-        <partial
-          src="_label-color.html"
-          aClass="section-page__design__colors__form__palette02"
-          classList="section-page__design__colors__form__palette02--list"
-        ></partial>
-        <partial
-          src="_label-color.html"
-          aClass="section-page__design__colors__form__palette03"
-          classList="section-page__design__colors__form__palette03--list"
-        ></partial>
+        <label
+          for="colors"
+          class="section-page__design__colors__form__palette01"
+        >
+          <input
+            type="radio"
+            id="colors"
+            name="colors"
+            class="js-radio js-palette1"
+            value=""
+          />
+          <ul class="section-page__design__colors__form__palette01--list">
+            <li class="list--color"></li>
+            <li class="list--color"></li>
+            <li class="list--color"></li>
+          </ul>
+        </label>
+
+        <label
+          for="colors"
+          class="section-page__design__colors__form__palette02"
+        >
+          <input
+            type="radio"
+            id="colors"
+            name="colors"
+            class="js-radio js-palette2"
+            value=""
+          />
+          <ul class="section-page__design__colors__form__palette02--list">
+            <li class="list--color"></li>
+            <li class="list--color"></li>
+            <li class="list--color"></li>
+          </ul>
+        </label>
+
+        <label
+          for="colors"
+          class="section-page__design__colors__form__palette03"
+        >
+          <input
+            type="radio"
+            id="colors"
+            name="colors"
+            class="js-radio js-palette3"
+            value=""
+          />
+          <ul class="section-page__design__colors__form__palette03--list">
+            <li class="list--color"></li>
+            <li class="list--color"></li>
+            <li class="list--color"></li>
+          </ul>
+        </label>
       </form>
     </div>
   </section>
