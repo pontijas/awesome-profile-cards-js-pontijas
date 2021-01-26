@@ -1,6 +1,8 @@
 # AWESOME PROFILE CARDS 📩
 
-This application is used to generate virtual business cards that you can publish on Twitter. In less than two minutes you will have your business card ready to share, with your personal and professional data, so that consulting your CV on LinkedIn and your GitHub profile is quick and easy for headhunters 😉. You can create it through any device, as it is fully responsive.
+Design your own professional profile card, customize it and share it!
+
+This application is used to generate virtual business cards that you can share on Twitter. In less than two minutes you will have your business card ready to share, with your personal and professional data, so that consulting your CV on LinkedIn and your GitHub profile is quick and easy for headhunters 😉. You can create it through any device, as it is fully responsive.
 
 In addition, you will be able to preview how your card will look as you fill it in and, so as not to waste time, all your information will be stored in local storage so that generating new cards is faster and more efficient.
 
