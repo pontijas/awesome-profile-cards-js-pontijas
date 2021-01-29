@@ -53,8 +53,9 @@
 }
 
 .photo {
-  width: 240px;
+  object-fit: cover;
   margin-bottom: 10px;
+  width: 240px;
   height: 200px;
 }
 
@@ -75,8 +76,8 @@
 // CHANGE COLOR PALETTE
 
 .js-card-palette1 {
-  .showroom {
-    background-color: $backgroundFadePalette1;
+  .js-background {
+    background: $backgroundFadePalette1;
   }
   .showroom-card__texts {
     border-left: solid 5px $brightBlue;
@@ -84,14 +85,17 @@
   .layout__title {
     color: $darkBlue;
   }
+  .layout__text {
+    color: $brightBlue;
+  }
   .media-icon {
-    border: solid 2px #a2deaf;
+    border: solid 2px $brightGreen;
   }
 }
 
 .js-card-palette2 {
-  .showroom {
-    background-color: $backgroundFadePalette2;
+  .js-background {
+    background: $backgroundFadePalette2;
   }
   .showroom-card__texts {
     border-left: solid 5px $userPaletteBlood2;
@@ -99,14 +103,17 @@
   .layout__title {
     color: $userPaletteBlood1;
   }
+  .layout__text {
+    color: $userPaletteBlood3;
+  }
   .media-icon {
     border: solid 2px $userPaletteBlood3;
   }
 }
 
 .js-card-palette3 {
-  .showroom {
-    background-color: $backgroundFadePalette3;
+  .js-background {
+    background: $backgroundFadePalette3;
   }
   .showroom-card__texts {
     border-left: solid 5px $userPaletteOffice2;
@@ -114,7 +121,28 @@
   .layout__title {
     color: $userPaletteOffice1;
   }
+  .layout__text {
+    color: $userPaletteOffice3;
+  }
   .media-icon {
-    border: solid 2px $userPaletteOffice3;
+    border: solid 2px $userPaletteOffice2;
+  }
+}
+
+.js-card-palette4 {
+  .js-background {
+    background: $backgroundFadePalette4;
+  }
+  .showroom-card__texts {
+    border-left: solid 5px $userPaletteOrange2;
+  }
+  .layout__title {
+    color: $userPaletteOrange1;
+  }
+  .layout__text {
+    color: $userPaletteOrange3;
+  }
+  .media-icon {
+    border: solid 2px $userPaletteOrange2;
   }
 }

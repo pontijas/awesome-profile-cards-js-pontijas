@@ -54,6 +54,15 @@ $backgroundFadePalette3: linear-gradient(
   $userPaletteOffice3
 );
 
+// user color palette Orange
+$userPaletteOrange1: #020092;
+$userPaletteOrange2: $userPaletteBlood3;
+$userPaletteOrange3: #83bdd8;
+$backgroundFadePalette4: linear-gradient(
+  $userPaletteOrange2,
+  $userPaletteOrange3
+);
+
 // fonts
 $textFont: "Open Sans", sans-serif;
 $cardFont: "Montserrat", sans-serif;
