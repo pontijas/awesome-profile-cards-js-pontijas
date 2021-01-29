@@ -17,6 +17,7 @@ function paintPalette() {
   console.log(selectedPalette);
   cardElement.classList.add("js-card-palette" + selectedPalette);
   localStorage.setItem("palette", selectedPalette);
+
 }
 
 inputPalette1.addEventListener("click", paintPalette);

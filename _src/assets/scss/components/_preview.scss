@@ -71,3 +71,50 @@
   align-items: center;
   justify-content: center;
 }
+
+// CHANGE COLOR PALETTE
+
+.js-card-palette1 {
+  .showroom {
+    background-color: $backgroundFadePalette1;
+  }
+  .showroom-card__texts {
+    border-left: solid 5px $brightBlue;
+  }
+  .layout__title {
+    color: $darkBlue;
+  }
+  .media-icon {
+    border: solid 2px #a2deaf;
+  }
+}
+
+.js-card-palette2 {
+  .showroom {
+    background-color: $backgroundFadePalette2;
+  }
+  .showroom-card__texts {
+    border-left: solid 5px $userPaletteBlood2;
+  }
+  .layout__title {
+    color: $userPaletteBlood1;
+  }
+  .media-icon {
+    border: solid 2px $userPaletteBlood3;
+  }
+}
+
+.js-card-palette3 {
+  .showroom {
+    background-color: $backgroundFadePalette3;
+  }
+  .showroom-card__texts {
+    border-left: solid 5px $userPaletteOffice2;
+  }
+  .layout__title {
+    color: $userPaletteOffice1;
+  }
+  .media-icon {
+    border: solid 2px $userPaletteOffice3;
+  }
+}

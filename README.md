@@ -46,6 +46,7 @@ In addition, you will be able to preview how your card will look as you fill it 
    |  |    	|	`- _head.html
    |  |    	|	`- _header.html
    |  |    	|	`- _index-main.html
+   |  |    	|	`- _preview.html
    |  |    	|	`- _showroom-design.html
    |  |    	|	`- _showroom-fill.html
    |  |    	|	`- _showroom-share.html

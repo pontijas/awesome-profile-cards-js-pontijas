@@ -34,21 +34,30 @@ $footerBorder: #d8d8d8;
 $userPaletteGreenish1: $darkBlue;
 $userPaletteGreenish2: $brightBlue;
 $userPaletteGreenish3: $brightGreen;
+$backgroundFadePalette1: linear-gradient($brightBlue, $brightGreen);
 
 // user color palette Blood
 $userPaletteBlood1: #420101;
 $userPaletteBlood2: #bd1010;
 $userPaletteBlood3: #e95626;
+$backgroundFadePalette2: linear-gradient(
+  $userPaletteBlood2,
+  $userPaletteBlood3
+);
 
 // user color palette Office
 $userPaletteOffice1: #3e5b65;
 $userPaletteOffice2: #eab052;
 $userPaletteOffice3: #a0c0cf;
+$backgroundFadePalette3: linear-gradient(
+  $userPaletteOffice2,
+  $userPaletteOffice3
+);
 
 // fonts
-$textFont: 'Open Sans', sans-serif;
-$cardFont: 'Montserrat', sans-serif;
-$specialFont: 'Merriweather', sans-serif;
+$textFont: "Open Sans", sans-serif;
+$cardFont: "Montserrat", sans-serif;
+$specialFont: "Merriweather", sans-serif;
 
 // font size
 $defaultFontSize: 16px;
