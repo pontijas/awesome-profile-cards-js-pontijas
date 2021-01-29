@@ -23,7 +23,9 @@ In addition, you will be able to preview how your card will look as you fill it 
    |  |		|- js
    |  |    	    |	`- collapsible.js
    |  |    	    |	`- colorpalette.js
+   |  |    	    |	`- localstorage.js
    |  |    	    |	`- main.js
+   |  |    	    |	`- reset.js
    |  |		|- scss
    |  |    	    |	- components
    |  |    	          |	`- _design.scss

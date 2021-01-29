@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('soy color palette');
-
 const inputPalette1 = document.querySelector(".js-palette1");
 const inputPalette2 = document.querySelector(".js-palette2");
 const inputPalette3 = document.querySelector(".js-palette3");
@@ -14,9 +12,9 @@ function paintPalette() {
   cardElement.classList.remove("js-card-palette3");
   cardElement.classList.remove("js-card-palette4");
   let selectedPalette = document.querySelector(".js-radio:checked");
-  console.log('selected palette', selectedPalette);
+
   selectedPalette = selectedPalette.value;
-  console.log('selected palette value', selectedPalette);
+
   cardElement.classList.add("js-card-palette" + selectedPalette);
   localStorage.setItem("palette", selectedPalette);
 

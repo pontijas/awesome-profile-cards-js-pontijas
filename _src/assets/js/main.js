@@ -36,12 +36,12 @@ function showPhone() {
 
 function showLinkedin() {
   const iconLinkedin = document.querySelector('.js-linkedin-icon');
-  iconLinkedin.href = userLinkedin.value;
+  iconLinkedin.href = 'https://www.linkedin.com/in/'+ userLinkedin.value;
 }
 
 function showGithub() {
   const iconGithub = document.querySelector('.js-github-icon');
-  iconGithub.href = userGithub.value;
+  iconGithub.href = 'https://github.com/'+ userGithub.value;
 }
 //funcion upload img
 function getImage(e) {
