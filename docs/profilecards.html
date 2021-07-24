@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Awesome Profile Cards</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900|Montserrat:400,700|Open+Sans:400,600,700&display=swap"
+        rel="stylesheet" />
+        <link rel="icon" href="./assets/icons/favicon.png" />
+        <link href="./assets/css/main.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <header class="header">
+            <div class="header__logo"> <a class="header__link" href="./index.html"><img         src="./assets/images/awesome-profile-cards-logo.svg"         alt="Awesome profile-cards logo"     /></a> 
+            </div>
+        </header>
+        <main class="section-profile">
+            <section class="showroom js-card js-background">
+                <button class="reset-button"> <i class="far fa-trash-alt"></i> Reset</button>
+                <div class="layout">
+                    <div class="showroom-card__texts">
+                         <h1 class="layout__title">Tu nombre</h1> 
+                        <p class="layout__text">Front-end developer</p>
+                    </div>
+                    <img class="photo" src="../../assets/images/sample1.jpg" alt="photo" title="photo"
+                    />
+                    <nav>
+                        <ul class="media-icons">
+                            <li class="media-icon"> <a class="js-phone-icon" href="" alt="Phone number" title="Call">             <div class="fas fa-mobile-alt" style="color: #114e4e"></div>           </a> 
+                            </li>
+                            <li class="media-icon"> <a class="js-mail-icon" href="" alt="Mail" title="Mail">             <i class="far fa-envelope" style="color: #114e4e"></i>           </a> 
+                            </li>
+                            <li class="media-icon"> <a href="" alt="Linkedin" title="Go to Linkedin" class="js-linkedin-icon"
+                                target="_blank">             <div class="fab fa-linkedin-in" style="color: #114e4e"></div>           </a> 
+                            </li>
+                            <li class="media-icon"> <a class="js-github-icon" class="" href="" alt="Github" title="Go to Github"
+                                target="_blank">             <div class="fab fa-github-alt" style="color: #114e4e"></div>           </a> 
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section class="section-page">
+                <!-- SECTION DISEÑA -->
+                <!-- SECTION DISEÑA -->
+                <section class="section-page__design collapsible-open">
+                    <div class="section-page__header collapsible__trigger">
+                        <div class="section-page__header__wrap"> <i class="far fa-object-ungroup section-page__header__icon" style="color: #e17334"></i> 
+                            <h2
+                            class="section-page__header__title">Diseña</h2>
+                        </div> <i class="section-page__header__btn fas fa-chevron-down"></i> 
+                    </div>
+                    <div class="section-page__design__colors collapsible__content">
+                         <h3 class="section-page__design__colors__subtitle">colores</h3> 
+                        <form action="" method="GET" id="select-color" class="section-page__design__colors__form">
+                            <label for="colors" class="section-page__design__colors__form__palette01">
+                                <input type="radio" id="colors" name="colors" class="js-radio js-palette1"
+                                value="1" checked="checked" />
+                                <ul class="section-page__design__colors__form__palette01--list">
+                                    <li class="list--color"></li>
+                                    <li class="list--color"></li>
+                                    <li class="list--color"></li>
+                                </ul>
+                            </label>
+                            <label for="colors" class="section-page__design__colors__form__palette02">
+                                <input type="radio" id="colors" name="colors" class="js-radio js-palette2"
+                                value="2" />
+                                <ul class="section-page__design__colors__form__palette02--list">
+                                    <li class="list--color"></li>
+                                    <li class="list--color"></li>
+                                    <li class="list--color"></li>
+                                </ul>
+                            </label>
+                            <label for="colors" class="section-page__design__colors__form__palette03">
+                                <input type="radio" id="colors" name="colors" class="js-radio js-palette3"
+                                value="3" />
+                                <ul class="section-page__design__colors__form__palette03--list">
+                                    <li class="list--color"></li>
+                                    <li class="list--color"></li>
+                                    <li class="list--color"></li>
+                                </ul>
+                            </label>
+                            <label for="colors" class="section-page__design__colors__form__palette04">
+                                <input type="radio" id="colors" name="colors" class="js-radio js-palette4"
+                                value="4" />
+                                <ul class="section-page__design__colors__form__palette04--list">
+                                    <li class="list--color"></li>
+                                    <li class="list--color"></li>
+                                    <li class="list--color"></li>
+                                </ul>
+                            </label>
+                        </form>
+                    </div>
+                </section>
+                <!-- SECTION RELLENA -->
+                <!-- SECTION RELLENA -->
+                <section class="section-page__fill">
+                    <div class="section-page__header collapsible__trigger">
+                        <div class="section-page__header__wrap"> <i class="far fa-keyboard section-page__header__icon" style="color: #e17334"></i> 
+                            <h2
+                            class="section-page__header__title">Rellena</h2>
+                        </div> <i class="section-page__header__btn fas fa-chevron-down"></i> 
+                    </div>
+                    <div class="collapsible__content">
+                        <form action="" method="GET" id="info-user" class="section-page__fill__form">
+                            <label for="fullname">Nombre completo</label>
+                            <input class="js-input-name" type="text" name="fullname"
+                            id="fullname" placeholder="Ej: Sushi Cat" required />
+                            <label for="job">Puesto</label>
+                            <input class="js-input-job" type="text" name="job" id="job"
+                            placeholder="Ej: Front-Meow sushi cat" required />
+                            <label for="img" class="label-img">Imagen de perfil</label>
+                            <div class="img-container">
+                                <button type="button" class="btn-add js-btn-img">Añadir imagen</button>
+                                <input type="file" name="" id="img-selector" class="hiddenField js__profile-upload-btn"
+                                />
+                                <div class="img-user js-preview"></div>
+                            </div>
+                            <label for="email">Email</label>
+                            <input class="js-input-mail" type="email" name="email" id="email"
+                            placeholder="Ej: sushi-cat@meow.com" />
+                            <label for="phone">Teléfono</label>
+                            <input class="js-input-phone" type="tel" name="phone"
+                            id="phone" placeholder="Ej: 555-55-55-55" />
+                            <label for="linkedin">Linkedin</label>
+                            <input class="js-input-linkedin" type="text" name="linkendin"
+                            id="linkedin" placeholder="Your Linkedin username. Ej: sushithecat" />
+                            <label for="github">Github</label>
+                            <input class="js-input-github" type="text" name="github"
+                            id="github" placeholder="Your Github username. Ej: sushithecat" />
+                        </form>
+                    </div>
+                </section>
+                <!-- SHARE -->
+                <!-- SHARE -->
+                <section class="section-page__share">
+                    <div class="section-page__header collapsible__trigger">
+                        <div class="section-page__header__wrap"> <i class="fas fa-share-alt section-page__header__icon" style="color: #e17334"></i> 
+                            <h2
+                            class="section-page__header__title">Comparte</h2>
+                        </div> <i class="section-page__header__btn fas fa-chevron-down"></i> 
+                    </div>
+                    <div class="collapsible__content">
+                        <form class="section-page__share__form">
+                            <button type="submit">crear tarjeta</button>
+                        </form>
+                    </div>
+                </section>
+                <div class="section-page__card-create hidden-popup">
+                     <h3 class="section-page__card-create__title">La tarjeta ha sido creada</h3>  <a href="#" class="section-page__card-create__link-card" target="_blank">https://awesome-profile-card.com?id=A456DF0001</a   >   <button type="submit" class="section-page__card-create__rrss-btn">     <i class="fab fa-twitter" style="font-size: 18px"></i>     Compartir en twitter   </button> </div> 
+ </section> 
+     </main>     
+<footer class="footer__container"> <small class="footer__copy">Awesome profile-cards © 2020</small> 
+    <div class="footer__logo"> <a href="https://adalab.es/" title="Ir a Adalab" target="_blank">       <img src="./assets/images/logo-adalab.png" alt="Adalab" />     </a> 
+                </div>
+                </footer>
+                <script type="text/javascript" src="./assets/js/main.js"></script>
+    </body>
+
+</html>
